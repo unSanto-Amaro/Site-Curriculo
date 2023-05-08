@@ -1,0 +1,28 @@
+:root{
+    --letras--: #194569;
+    --fundo--: #d9e9ed;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: auto;
+    max-width: 1250px;
+    background-color: var(--fundo--);
+}
+
+.principal{
+    display: flex;
+}
+
+@media (max-width: 600px) {
+    .principal{
+        flex-direction: column;
+    }
+}
+
+
+
